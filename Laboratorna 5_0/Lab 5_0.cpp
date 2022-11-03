@@ -14,8 +14,8 @@ int main()
 	double c = h(abs(p - q), sqrt(abs(p - q))) * h(abs(p - q), sqrt(abs(p - q))) + h(1, q * q - p * p);
 	cout << "c = " << c << endl;
 	return 0;
-
 }
+
 double h(const double x, const double y) // визначення
 {
 	return (y * y - sqrt(x * x + y * y)) / (1.0 * (1 + x * x * y * y));
